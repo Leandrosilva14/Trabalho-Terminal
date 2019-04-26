@@ -68,4 +68,4 @@ sh cliente.script
 cal
 echo|cal>hoje.txt
 ```
-o operador | cria um conteúdo de calendário dentro do arquivo hoje.txt
+> o operador | cria um conteúdo de calendário dentro do arquivo hoje.txt
