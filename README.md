@@ -68,7 +68,7 @@ sh cliente.script
 cal
 echo|cal>hoje.txt
 ```
-> o operador | cria um conteúdo de calendário dentro do arquivo hoje.txt
+> O operador | cria um conteúdo de calendário dentro do arquivo hoje.txt
 
 ## Problema 11
 ```bash
@@ -78,3 +78,36 @@ ls
 
 ## Problema 12
 ```bash
+grep Balneario cidades_sc.txt
+```
+> Este comando lista todas as cidades da lista cidades_sc.txt que tenham "Balneário" em seu nome.
+
+## Problema 13
+```bash
+grep balneario cidades_sc.txt
+```
+> O comando não lista as cidades, pelo fato de que não há cidades que tenham "balneario" com letra minúscula.
+
+## Problema 14
+```bash
+grep "do Sul" cidades_sc.txt
+```
+> Este comando lista as cidades que tem "do Sul" no final de seus nomes.
+
+## Problemas 15
+```bash
+cat cidades_sc.txt|grep Balneario
+```
+## Problema 16
+```bash
+echo|cat cidades_sc.txt|grep Balneario > balneario.txt
+```
+## Problema 17
+```bash
+tar -c balneario.txt > compactado.tar
+```
+
+## Problema 18
+```bash
+tar -x compactado.tar
+```
