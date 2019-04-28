@@ -69,3 +69,12 @@ cal
 echo|cal>hoje.txt
 ```
 > o operador | cria um conteúdo de calendário dentro do arquivo hoje.txt
+
+## Problema 11
+```bash
+wget https://gist.githubusercontent.com/leandersonandre/c8cba982f42262591be628e5397d1c3f/raw/bd13a3e13823708e477f99f9285f845b292714c6/cidades_sc.txt
+ls
+```
+
+## Problema 12
+```bash
