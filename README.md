@@ -146,3 +146,31 @@ else
 
 ### Problema 4
 ```bash
+#!/usr/bash
+echo Numero
+read x
+cont=0
+while [ $cont -le 10 ]; do
+   echo $x x $cont = $(($x*$cont))
+   cont=$(($cont+1))
+done
+```
+### Problema 5
+```bash
+#!/usr/bash
+echo Opcoes:
+echo 1: Calendario
+echo 2: Lista de arquivos do diretório
+echo Digite a opcao:
+read opcao
+if [ $opcao == 1 ]; then
+   echo Mostrar calendario
+   echo 
+   cal
+elif [ $opcao == 2 ]; then
+   echo Mostrar arquivos do diretorio
+   ls
+else
+   echo Essa opcao nao existe
+fi
+```
